@@ -81,6 +81,7 @@ p {
     border-radius: 7px;
     font-weight: 540; /* Consider using standard weights: 400, 500, 600, etc. */
     transition: background-color 0.5s ease; /* Add smooth transition */
+    font-size:20px;
 }
 
 .btn-blue:hover {
@@ -122,6 +123,7 @@ p {
     border-radius: 6px;
     margin-bottom: 25px;
     margin-top: auto;
+    font-size:25px;
 }
 #subtitle {
     font-size:20px;
