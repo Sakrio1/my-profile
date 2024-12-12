@@ -1,108 +1,125 @@
-html{
-    scroll-behavior:smooth;
+html {
+    scroll-behavior: smooth;
 }
-body{
+
+body {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-style: normal;
     background-color: rgb(255, 255, 255);
-    font-size:20px;
-    font-weight:lighter;
-    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 300; /* Use a lighter weight for better readability */
+    color: rgb(0, 0, 0);
 }
-h1,h2{
-    font-weight:900px;
-    
+
+h1, h2 {
+    font-weight: 900; /* Remove 'px', use only numbers for font-weight */
 }
-h1{
-    color :rgb(0, 0, 0);
-    font-size:30px;
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 2em; /* Use 'em' for relative sizing */
 }
-h2{
-    color :#5715c0;
-    font-size:20px;
+
+h2 {
+    color: #5715c0;
+    font-size: 1.5em; /* Use 'em' for relative sizing */
 }
-a{
-    color:rgb(0, 0, 0);
+
+a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition: color 0.5s ease;
 }
-a:hover{
-    color:rgb(25, 90, 90)
-}
-p{
-    color:rgb(0, 0, 0);
-    font-size:15px;
-}
-/* Custom Class designs*/
 
-.container{
-    width:800px;
-    margin:20px auto;
+a:hover {
+    color: rgb(25, 90, 90);
 }
 
-@media (max-width:760px) {
-    .container{
-        width:600px;
+p {
+    color: rgb(0, 0, 0);
+    font-size: 1em; /* Consistent with body text size */
+}
+
+/* Custom Class designs */
+.container {
+    width: 800px;
+    margin: 20px auto;
+    text-align: center; /* Center content in the container */
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
     }
 }
-@media (max-width:500px) {
-    .container{
-        width:400px;
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
     }
 }
-.card-white{
-    background-color:white;
-    padding:40px;
-    box-shadow:0px 10px 30px rgba(0,0,0,0.1);
-    border-radius:4px;
-    margin:20px;
-    text-align:center;
-    padding:20px
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px;
+    text-align: center;
 }
-.img-circle{
-    border-radius: 50%;
-    zoom:120%;
+
+.img-circle {
+    border-radius: 30%;
+    zoom: 150%;
 }
-.btn-blue{
-    background-color:#5715c0;
-    color:white;
-    padding:10px 15px;
-    border-radius:7px;
-    font-weight:540
+
+.btn-blue {
+    background-color: #5715c0;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-weight: 540; /* Consider using standard weights: 400, 500, 600, etc. */
+    transition: background-color 0.5s ease; /* Add smooth transition */
 }
-.btn-blue:hover{
-    background-color:rgb(7, 3, 12);
-    color:white;
-    transition: color 3s ease;
+
+.btn-blue:hover {
+    background-color: rgb(7, 3, 12);
+    transition: background-color 0.5s ease; /* Adjusted to match background-color */
 }
-.list-inline{
-    list-style:none;
-    padding-left:0px;
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
 }
-.list-inline li{
-    display:inline;
-    padding:5px;
-    font-size: 30px;
-    color:#5715c0
+
+.list-inline li {
+    display: inline;
+    padding: 5px;
+    font-size: 1.5em; /* Use 'em' for better scaling */
+    color: #5715c0;
 }
-.list-inline i{
-    font-size:130px;
+
+.list-inline i {
+    font-size: 2em; /* Use 'em' for better scaling */
 }
-#introduction{
-    padding-top:5px;
-    padding-bottom:45px;
+
+#introduction {
+    padding-top: 5px;
+    padding-bottom: 45px;
 }
-#introduction p{
-    margin-bottom:40px;
-    margin-top:20px;
+
+#introduction p {
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
+
 .box-purple {
-    font-weight:normal;
-    background-color:#5715c0;
-    color:white;
-    padding:5px 14px;
-    border-radius:6px;
-    margin-bottom:25px;
-    margin-top:auto
+    font-weight: normal;
+    background-color: #5715c0;
+    color: white;
+    padding: 5px 14px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    margin-top: auto;
 }
